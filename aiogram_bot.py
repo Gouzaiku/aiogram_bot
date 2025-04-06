@@ -14,7 +14,7 @@ from aiogram.utils.keyboard import ReplyKeyboardBuilder as RKB
 from aiogram.utils.keyboard import InlineKeyboardBuilder as IKB
 from aiogram.types.reply_keyboard_remove import ReplyKeyboardRemove
 
-TOKEN = '7409950736:AAFDXEFVIsn0Dp0pCYyK66ooQ0SOTK6iW3U'  # Рекомендуется использовать переменные окружения
+TOKEN = 'TOKEN'  # Рекомендуется использовать переменные окружения
 
 bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
